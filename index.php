@@ -69,7 +69,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <html>
 <head>
 <title>PHPGurukul Contact Form With Mail function and Database store Facility</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/form-stylesheet.css" rel="stylesheet" type="text/css" media="all"/>
 
 <!--web-fonts-->
 <link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700' rel='stylesheet' type='text/css'>

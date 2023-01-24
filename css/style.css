@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+}
+/* Style for background */
+body {
+  background-image: url("images/bg-img1.jpg");
+  background-size: cover;
+}
+
+
+
+img {
+  height: 180px; 
+  width: 200px; 
+  max-width: 100%; 
+  align-items: center;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.container h3,
+h4,
+h5 {
+  text-align: left;
+  margin-left: 50px;
+}
+.container p {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.footer{
+  margin-top: 80px;
+}
+.footer p {
+  text-align: center;
+  font-size: 16px;
+}
+.footer a{
+  color: beige;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: black;
+}

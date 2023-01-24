@@ -1,0 +1,42 @@
+/* 
+Developed By SA IT Solutions and Trade Concern url : https://www.sait.com.np
+*/
+
+body {
+  background-image: url("../images/bg-img1.webp");
+  background-size: cover;
+}
+.ms-top-header, .ms-bottom-container {
+	padding:25px;
+	background: radial-gradient(circle farthest-corner at center center, #ffffff 0%, #d3c4be 100%);
+	background: -webkit-radial-gradient(circle farthest-corner at center center, #ffffff 0%, #d3c4be 100%);
+	background: -moz-radial-gradient(circle farthest-corner at center center, #ffffff 0%, #d3c4be 100%);
+	-webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+	-moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+	box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+}
+.ms-middle-container {
+	padding:25px;
+	background: #ffffff;
+	-webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+	-moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+	box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+}
+.container {
+    max-width: 768px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+/* Resize the logo image in mobile view */  
+  .img-fluid {
+    max-width: 25%;    
+}
+/* Align Logo Image to center of the content in mobile view */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+}

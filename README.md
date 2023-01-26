@@ -1,5 +1,4 @@
-# Files and Folders Structure
-.
+.	# Files and Folders Structure
 ├── css
 	├── styles.css
 ├── images

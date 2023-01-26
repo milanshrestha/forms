@@ -40,16 +40,13 @@ if($lastInsertId)
 $to=$email.",".$adminemail; 
 $headers .= "MIME-Version: 1.0"."\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1'."\r\n";
-$headers .= 'From:PHPGurukul Contact Form Demo<info@phpgurukul.com>'."\r\n";
+$headers .= 'From:Feedback Form<feedback@silverliningnepal.com>'."\r\n";
 $ms.="<html></body><div>
 <div><b>Name:</b> $name,</div>
 <div><b>Phone Number:</b> $phoneno,</div>
 <div><b>Email Id:</b> $email,</div>";
 $ms.="<div style='padding-top:8px;'><b>Message : </b>$message</div><div></div></body></html>";
 mail($to,$subject,$ms,$headers);
-
-
-
 
 echo "<script>alert('Your info submitted successfully.');</script>";
   echo "<script>window.location.href='index.php'</script>";
@@ -60,9 +57,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
   echo "<script>window.location.href='index.php'</script>";
 }
 
-
 }
-
 
 ?>
 <!DOCTYPE HTML>

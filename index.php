@@ -63,7 +63,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>PHPGurukul Contact Form With Mail function and Database store Facility</title>
+<title>Feedback Form</title>
 <link href="css/form-stylesheet.css" rel="stylesheet" type="text/css" media="all"/>
 
 <!--web-fonts-->

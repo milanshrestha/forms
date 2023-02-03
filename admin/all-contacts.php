@@ -103,7 +103,7 @@ else:
 endif;
 ?></td>
 
-                  <td><a href="contact-details.php?cid=<?php echo htmlentities($result->id);?>"><button type="button" class="btn btn-info btn-min-width btn-glow mr-1 mb-1">View Details</button></td>
+                  <td><a href="contact-details.php?cid=<?php echo htmlentities($result->id);?>"></a><button type="button" class="btn btn-info btn-min-width btn-glow mr-1 mb-1">View Details</button></td>
                       </tr>
                       <?php
                       $cnt++;

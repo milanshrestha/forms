@@ -10,5 +10,6 @@
     $message = "Name: " . $name . "\n" . "Email: " . $email . "\n" . "Checked In Date: " . $checkin_date . "\n" . "Room Number: " . $room_number . "\n" . "Service Quality: " . $service_quality . "\n" . "Recommendation: " . $recommendation;
     $headers = "From: " . $email;
     mail($to, $subject, $message, $headers);
+	header('Location: thankyou.html');
     echo "Form submitted successfully!";
 ?>

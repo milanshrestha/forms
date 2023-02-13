@@ -25,6 +25,9 @@ body {
 .container {
     max-width: 768px;
 }
+.ms-navbar-scroll.scrolled{
+	background:#fff;
+}
 @media screen and (max-width: 600px) {
   .container {
     max-width: 100%;
